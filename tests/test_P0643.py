@@ -13,7 +13,7 @@ class TestFindMaxAverage(unittest.TestCase):
     self.solution = Solution()
 
   def test1(self):
-    self.findMaxAverage(self.sol.findMaxAverage([3,3,3,3], 4), 3.0)
+    self.assertEqual(self.solution.findMaxAverage([3,3,3,3], 4), 3.0)
 
 if __name__ == "__main__":
   unittest.main()
