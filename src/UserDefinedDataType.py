@@ -4,3 +4,10 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+
+    def __eq__(self, other):
+        if not isinstance(other, TreeNode):
+            return False
+        return (self.val == other.val and
+                self.left == other.left and
+                self.right == other.right)
