@@ -16,5 +16,5 @@ class TestP1351(unittest.TestCase):
   def test1(self):
     self.assertEqual(self.solution.countNegatives([[5, 4, 3, 2, 1], [1, 0, -1, -2, -3], [-1, -2, -3, -4, -5], [-2, -3, -4, -5, -6], [-3, -4, -5, -6, -7]]), 18)
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()

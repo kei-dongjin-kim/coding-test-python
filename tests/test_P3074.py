@@ -15,5 +15,5 @@ class TestP3074(unittest.TestCase):
   def test1(self):
     self.assertTrue(self.solution.minimumBoxes([10, 10, 10], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]), 6)
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()

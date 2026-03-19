@@ -20,5 +20,5 @@ class TestP3127(unittest.TestCase):
         ]
     self.assertTrue(self.solution.canMakeSquare(grid))
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()

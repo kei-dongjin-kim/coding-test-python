@@ -24,5 +24,5 @@ class TestP1339(unittest.TestCase):
     root: TreeNode = TreeNode(1, node2, node3)
     self.assertEqual(self.solution.maxProduct(root), 192)
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()

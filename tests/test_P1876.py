@@ -15,5 +15,5 @@ class TestP1876(unittest.TestCase):
   def test1(self):
     self.assertEqual(self.solution.countGoodSubstrings("abcdefg"), 5)
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()

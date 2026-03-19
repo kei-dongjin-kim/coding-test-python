@@ -16,5 +16,5 @@ class TestP3075(unittest.TestCase):
   def test1(self):
     self.assertTrue(self.solution.maximumHappinessSum([5, 6, 7, 8, 9], 3), 15)
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()

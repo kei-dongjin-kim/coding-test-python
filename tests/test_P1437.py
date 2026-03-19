@@ -15,5 +15,5 @@ class TestP1437(unittest.TestCase):
   def test1(self):
     self.assertEqual(self.solution.kLengthApart([0, 1, 0, 0, 0, 1, 0, 0, 1, 0], 2), True)
 
-if __name__ == "__name__":
+if __name__ == "__main__":
   unittest.main()
